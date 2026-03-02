@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrar</title>
+  <link rel="stylesheet" href="./css/estilos.css" />
+</head>
+<body>
+
+  <main class="pagina">
+    <section class="cartao-login" aria-labelledby="titulo-login">
+      
+      <header class="cabecalho-login">
+        <h1 id="titulo-login">Entrar</h1>
+      </header>
+
+      <form class="formulario-login" action="#" method="post">
+
+        <div class="grupo-campo">
+          <label for="usuario">Usuário</label>
+          <input 
+            type="text" 
+            id="usuario" 
+            name="usuario" 
+            placeholder="Digite seu usuário"
+            required
+          />
+        </div>
+
+        <div class="grupo-campo">
+          <label for="senha">Senha</label>
+          <input 
+            type="password" 
+            id="senha" 
+            name="senha" 
+            placeholder="Digite sua senha"
+            required
+          />
+        </div>
+
+        <div class="opcoes-formulario">
+          <label class="lembrar">
+            <input type="checkbox" name="lembrar" />
+            <span>Lembrar-me</span>
+          </label>
+
+          <a href="#" class="link-recuperar">Esqueceu a senha?</a>
+        </div>
+
+        <button type="submit" class="botao-entrar">
+          Entrar
+        </button>
+
+        <p class="registro">
+          Não tem conta?
+          <a href="#">Criar conta</a>
+        </p>
+
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
